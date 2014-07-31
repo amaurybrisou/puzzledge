@@ -4,3 +4,6 @@
 [submodule "plugins/blog.puzzledge.eu"]
 	path = plugins/blog.puzzledge.eu
 	url = git@github.com:amaurybrisou/blog.puzzledge.eu.git
+[submodule "plugins/trip.puzzledge.eu"]
+	path = plugins/trip.puzzledge.eu
+	url = git@github.com:amaurybrisou/trip.puzzledge.eu.git
