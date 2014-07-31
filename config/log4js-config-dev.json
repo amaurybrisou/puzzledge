@@ -1,0 +1,23 @@
+{
+  "appenders": [
+    {
+      "type": "file",
+      "filename": "node.log",
+      "maxLogSize": 20480,
+      "backups": 3,
+      "category": "puzzledge-file",
+      "layout": {
+        "type": "pattern",
+        "pattern": "[%r] [%p%]] - %m"
+      }
+    },
+    {
+      "type": "console",
+      "category": "puzzledge-console",
+      "layout": {
+        "type": "coloured",
+        "pattern": "[%d] [%[%p%]] - %m"
+      }
+    }
+  ]
+}

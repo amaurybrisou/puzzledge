@@ -1,0 +1,14 @@
+{
+  "name": "slim-node-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start-dev": "config='/config/config-dev' supervisor --extensions js,node,html,jade,json nodejs app.js",
+    "start": "forever -a app.js"
+  },
+  "dependencies": {
+    "hapi": "6.x",
+    "catbox-memory": "~1.0.3",
+    "good": "~2.2.0"
+  }
+}

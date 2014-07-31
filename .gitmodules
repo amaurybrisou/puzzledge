@@ -1,0 +1,6 @@
+[submodule "plugins/hapi-errors"]
+	path = plugins/hapi-errors
+	url = git@github.com:amaurybrisou/hapi-errors.git
+[submodule "plugins/blog.puzzledge.eu"]
+	path = plugins/blog.puzzledge.eu
+	url = git@github.com:amaurybrisou/blog.puzzledge.eu.git
