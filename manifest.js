@@ -39,9 +39,6 @@ module.exports = {
     }
   }],
   plugins: {
-    'hapi-auth-basic': [{
-
-    }],
     '../../../node_modules/good': [{
       options: {
         extendedRequests: true,
