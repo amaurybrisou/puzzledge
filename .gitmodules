@@ -7,3 +7,6 @@
 [submodule "plugins/trip.puzzledge.eu"]
 	path = plugins/trip.puzzledge.eu
 	url = git@github.com:amaurybrisou/trip.puzzledge.eu.git
+[submodule "plugins/hapi-comments"]
+	path = plugins/hapi-comments
+	url = git@github.com:amaurybrisou/hapi-comments.git
