@@ -80,6 +80,11 @@ module.exports = {
         sitename: "trip.puzzledge.eu",
         author: "Amaury Brisou",
         url: 'http://trip.puzzledge.eu',
+        description: 'Voyage Asie 2014',
+        image: 'http://puzzledge.eu/images/icone.png',
+        copyright: '2014 Amaury Brisou',
+        categories: ['Voyage', 'Asie'],
+        rss_update_delay: 60 * 1000,
 
       },
       select: ['trip-puzzledge-eu']
