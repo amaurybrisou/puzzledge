@@ -10,6 +10,7 @@ var next = function (err, pack) {
     })
   }
 
+
   process.on('SIGTERM', stop)
   process.on('SIGINT', stop)
   process.on('uncaughtException', stop)

@@ -12,9 +12,9 @@ module.exports = {
     }
   },
   servers: [{
-    //host: 'puzzledge.eu',
+    host: '127.0.0.1',
     port: 8080,
-    uri: 'http://puzzledge.eu:8080',
+    //uri: 'http://puzzledge.eu:8080',
     // host : dic.local,
     options: {
       // tls: {
@@ -28,9 +28,9 @@ module.exports = {
       }
     }
   }, {
-    //host: 'trip.puzzledge.loc',
+    host: '127.0.0.1',
     port: 8081,
-    uri: 'http://trip.puzzledge.eu',
+    //uri: 'http://trip.puzzledge.eu',
     options: {
       labels: 'trip-puzzledge-eu',
     },
@@ -39,6 +39,9 @@ module.exports = {
     }
   }],
   plugins: {
+    'hapi-auth-basic': [{
+
+    }],
     '../../../node_modules/good': [{
       options: {
         extendedRequests: true,
@@ -57,6 +60,11 @@ module.exports = {
         sitename: "Puzzledge.eu",
         author: "Amaury Brisou",
         url: 'http://puzzledge.eu',
+        description: 'IT news',
+        image: 'http://puzzledge.eu/images/icone.png',
+        copyright: '2014 Amaury Brisou',
+        categories: ['Computer Science', 'IT'],
+        rss_update_delay: 60 * 1000,
 
         consumer_key: 'jLKPlgaf6axAPbWXLRuHVZ6dI',
         consumer_secret: 'TXfxP5vu2AhzZyXBf3OfqKa0tDfS1w9z4HUmV4RTLQ5aPNP2Xf',
@@ -72,6 +80,7 @@ module.exports = {
         sitename: "trip.puzzledge.eu",
         author: "Amaury Brisou",
         url: 'http://trip.puzzledge.eu',
+
       },
       select: ['trip-puzzledge-eu']
     }],
