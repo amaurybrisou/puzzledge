@@ -56,7 +56,7 @@ module.exports = {
       options: {
         sitename: "Puzzledge.eu",
         author: "Amaury Brisou",
-        url: 'http://puzzledge.eu',
+        url: 'http://localhost:8080',
         description: 'IT news',
         image: 'http://puzzledge.eu/images/icone.png',
         copyright: '2014 Amaury Brisou',
@@ -95,7 +95,7 @@ module.exports = {
       route: {
         prefix: '/comments'
       },
-      select: ['trip-puzzledge-eu']
+      //select: ['trip-puzzledge-eu']
     }],
     '../../../plugins/hapi-errors': [{}],
   }
