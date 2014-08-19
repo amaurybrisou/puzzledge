@@ -89,7 +89,7 @@ module.exports = {
     }],
     '../../../plugins/hapi-comments': [{
       options: {
-        dbName: 'localhost',
+        dbName: 'puzzledge_eu',
         drop: false
       },
       route: {
