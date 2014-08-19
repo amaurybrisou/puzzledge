@@ -58,7 +58,7 @@ module.exports = {
         author: "Amaury Brisou",
         url: 'http://localhost:8080',
         description: 'IT news',
-        image: 'http://puzzledge.eu/images/icone.png',
+        image: 'http: //puzzledge.eu/images/icone.png',
         copyright: '2014 Amaury Brisou',
         categories: ['Computer Science', 'IT'],
         rss_update_delay: 60 * 1000,
