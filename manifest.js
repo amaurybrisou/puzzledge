@@ -54,7 +54,7 @@ module.exports = {
     }],
     '../../../plugins/blog.puzzledge.eu': [{
       options: {
-        sitename: "Puzzledge.eu",
+        sitename: "Puzzledge.org",
         author: "Amaury Brisou",
         url: 'http://puzzledge.org',
         description: 'IT news',
