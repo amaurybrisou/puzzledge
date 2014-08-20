@@ -56,9 +56,9 @@ module.exports = {
       options: {
         sitename: "Puzzledge.eu",
         author: "Amaury Brisou",
-        url: 'http://puzzledge.eu',
+        url: 'http://puzzledge.org',
         description: 'IT news',
-        image: 'http: //puzzledge.eu/images/icone.png',
+        image: 'http: //puzzledge.org/images/icone.png',
         copyright: '2014 Amaury Brisou',
         categories: ['Computer Science', 'IT'],
         rss_update_delay: 60 * 1000,
@@ -74,12 +74,12 @@ module.exports = {
     }],
     '../../../plugins/trip.puzzledge.eu': [{
       options: {
-        sitename: "trip.puzzledge.eu",
+        sitename: "trip.puzzledge.org",
         author: "Amaury Brisou",
         //url: 'http://trip.puzzledge.eu',
-        url: 'http://trip.puzzledge.eu',
+        url: 'http://trip.puzzledge.org',
         description: 'Voyage Asie 2014',
-        image: 'http://puzzledge.eu/images/icone.png',
+        image: 'http://puzzledge.org/images/icone.png',
         copyright: '2014 Amaury Brisou',
         categories: ['Voyage', 'Asie'],
         rss_update_delay: 60 * 1000,
