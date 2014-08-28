@@ -61,14 +61,14 @@ module.exports = {
         image: 'http: //puzzledge.org/images/icone.png',
         copyright: '2014 Amaury Brisou',
         categories: ['Computer Science', 'IT'],
-        rss_update_delay: 60 * 1000,
+        rss_update_delay: 300 * 1000,
 
         consumer_key: 'jLKPlgaf6axAPbWXLRuHVZ6dI',
         consumer_secret: 'TXfxP5vu2AhzZyXBf3OfqKa0tDfS1w9z4HUmV4RTLQ5aPNP2Xf',
         access_token_key: '2546694007-3HkuRqNsQ9DTvi12KyCNke4DHECgyB8OoLI8UMk',
         access_token_secret: 'xfzp7kljfjlADpAtued5gDnzxpem4nXVSnDspaOwWqOcr',
 
-        twitter_update_delay: 60 * 1000,
+        twitter_update_delay: 300 * 1000,
       },
       select: ['puzzledge-eu']
     }],
@@ -76,21 +76,31 @@ module.exports = {
       options: {
         sitename: "trip.puzzledge.org",
         author: "Amaury Brisou",
-        //url: 'http://trip.puzzledge.eu',
-        url: 'http://trip.puzzledge.org',
+        url: 'http://localhost:8081',
+        //url: 'http://trip.puzzledge.org',
         description: 'Voyage Asie 2014',
         image: 'http://puzzledge.org/images/icone.png',
         copyright: '2014 Amaury Brisou',
         categories: ['Voyage', 'Asie'],
-        rss_update_delay: 60 * 1000,
+        rss_update_delay: 300 * 1000,
 
       },
       select: ['trip-puzzledge-eu']
     }],
     '../../../plugins/hapi-comments': [{
       options: {
+        dbUrl: 'mongodb://127.0.0.1:27017/',
         dbName: 'puzzledge_eu',
-        drop: false
+        drop: true,
+        mail: {
+          from: 'master@puzzledge.org',
+          smtpServer: 'ns0.ovh.net',
+          smtpPort: 587,
+          auth: {
+            user: 'master@puzzledge.org',
+            pass: 'E33eur18%'
+          }
+        }
       },
       route: {
         prefix: '/comments'

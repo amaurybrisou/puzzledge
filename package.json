@@ -9,6 +9,8 @@
   "dependencies": {
     "hapi": "6.x",
     "catbox-memory": "~1.0.3",
-    "good": "~2.2.0"
+    "good": "~2.2.0",
+    "nodemailer": "~1.2.0",
+    "nodemailer-smtp-transport": "~0.1.12"
   }
 }
