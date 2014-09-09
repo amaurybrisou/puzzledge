@@ -13,3 +13,6 @@
 [submodule "plugins/WebRTC"]
 	path = plugins/WebRTC
 	url = https://github.com/puzzledge-amaurybrisou/WebRTC.git
+[submodule "plugins/hapi-webrtc"]
+	path = plugins/hapi-webrtc
+	url = https://github.com/nodejs-js-amaurybrisou/hapi-webrtc.git
