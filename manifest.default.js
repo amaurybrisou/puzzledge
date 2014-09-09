@@ -93,12 +93,12 @@ module.exports = {
         dbName: 'puzzledge_eu',
         drop: true,
         mail: {
-          from: 'master@puzzledge.org',
-          smtpServer: 'ns0.ovh.net',
+          from: 'mail from',
+          smtpServer: 'smpt server',
           smtpPort: 587,
           auth: {
-            user: 'master@puzzledge.org',
-            pass: 'E33eur18%'
+            user: 'your username',
+            pass: 'you password'
           }
         }
       },
