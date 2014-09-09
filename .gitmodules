@@ -1,12 +1,15 @@
 [submodule "plugins/hapi-errors"]
 	path = plugins/hapi-errors
-	url = git@github.com:amaurybrisou/hapi-errors.git
+	url = https://github.com/puzzledge-amaurybrisou/hapi-errors.git
 [submodule "plugins/blog.puzzledge.eu"]
 	path = plugins/blog.puzzledge.eu
-	url = git@github.com:amaurybrisou/blog.puzzledge.eu.git
+	url = https://github.com/puzzledge-amaurybrisou/blog.puzzledge.eu.git
 [submodule "plugins/trip.puzzledge.eu"]
 	path = plugins/trip.puzzledge.eu
-	url = git@github.com:amaurybrisou/trip.puzzledge.eu.git
+	url = https://github.com/puzzledge-amaurybrisou/trip.puzzledge.eu.git
 [submodule "plugins/hapi-comments"]
 	path = plugins/hapi-comments
-	url = git@github.com:amaurybrisou/hapi-comments.git
+	url = https://github.com/puzzledge-amaurybrisou/hapi-comments.git
+[submodule "plugins/WebRTC"]
+	path = plugins/WebRTC
+	url = https://github.com/puzzledge-amaurybrisou/WebRTC.git
