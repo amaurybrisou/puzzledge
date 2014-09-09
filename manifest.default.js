@@ -65,7 +65,7 @@ module.exports = {
 
         consumer_key: ' ',
         consumer_secret: ' ',
-        access_token_key: ' -3HkuRqNsQ9DTvi12KyCNke4DHECgyB8OoLI8UMk',
+        access_token_key: ' ',
         access_token_secret: ' ',
 
         twitter_update_delay: 300 * 1000,
