@@ -63,10 +63,10 @@ module.exports = {
         categories: ['Computer Science', 'IT'],
         rss_update_delay: 300 * 1000,
 
-        consumer_key: 'jLKPlgaf6axAPbWXLRuHVZ6dI',
-        consumer_secret: 'TXfxP5vu2AhzZyXBf3OfqKa0tDfS1w9z4HUmV4RTLQ5aPNP2Xf',
-        access_token_key: '2546694007-3HkuRqNsQ9DTvi12KyCNke4DHECgyB8OoLI8UMk',
-        access_token_secret: 'xfzp7kljfjlADpAtued5gDnzxpem4nXVSnDspaOwWqOcr',
+        consumer_key: ' ',
+        consumer_secret: ' ',
+        access_token_key: ' -3HkuRqNsQ9DTvi12KyCNke4DHECgyB8OoLI8UMk',
+        access_token_secret: ' ',
 
         twitter_update_delay: 300 * 1000,
       },
