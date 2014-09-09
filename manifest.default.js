@@ -21,7 +21,7 @@ module.exports = {
       //   key: fs.readFileSync( __dirname + /plugins/dictionary-api/cert/+domain+.key),
       //   cert: fs.readFileSync(__dirname + /plugins/dictionary-api/cert/+domain+.crt)
       // },
-      labels: 'puzzledge-eu',
+      labels: 'puzzledge',
       //cors: true,
       debug: {
         request: ['error', 'uncaught', 'log']
@@ -32,7 +32,7 @@ module.exports = {
     port: 8081,
     //uri: 'http://trip.puzzledge.eu',
     options: {
-      labels: 'trip-puzzledge-eu',
+      labels: 'trip-puzzledge',
     },
     debug: {
       request: ['error', 'uncaught', 'log']
@@ -52,7 +52,7 @@ module.exports = {
         }
       }
     }],
-    '../../../plugins/blog.puzzledge.eu': [{
+    '../../../plugins/blog.puzzledge': [{
       options: {
         sitename: "Puzzledge.org",
         author: "Amaury Brisou",
@@ -70,9 +70,9 @@ module.exports = {
 
         twitter_update_delay: 300 * 1000,
       },
-      select: ['puzzledge-eu']
+      select: ['puzzledge']
     }],
-    '../../../plugins/trip.puzzledge.eu': [{
+    '../../../plugins/trip.puzzledge': [{
       options: {
         sitename: "trip.puzzledge.org",
         author: "Amaury Brisou",
@@ -85,12 +85,12 @@ module.exports = {
         rss_update_delay: 300 * 1000,
 
       },
-      select: ['trip-puzzledge-eu']
+      select: ['trip-puzzledge']
     }],
     '../../../plugins/hapi-comments': [{
       options: {
         dbUrl: 'mongodb://127.0.0.1:27017/',
-        dbName: 'puzzledge_eu',
+        dbName: 'puzzledge',
         drop: true,
         mail: {
           from: 'mail from',
