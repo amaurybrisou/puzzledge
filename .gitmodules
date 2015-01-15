@@ -1,6 +1,6 @@
 [submodule "plugins/hapi-errors"]
 	path = plugins/hapi-errors
-	url = https://github.com/puzzledge-amaurybrisou/hapi-errors.git
+	url = https://github.com/nodejs-js-amaurybrisou/hapi-errors
 [submodule "plugins/blog.puzzledge"]
 	path = plugins/blog.puzzledge
 	url = https://github.com/puzzledge-amaurybrisou/blog.puzzledge.git
@@ -9,4 +9,4 @@
 	url = https://github.com/puzzledge-amaurybrisou/trip.puzzledge.git
 [submodule "plugins/hapi-comments"]
 	path = plugins/hapi-comments
-	url = https://github.com/puzzledge-amaurybrisou/hapi-comments.git
+	url = git@github.com:nodejs-js-amaurybrisou/hapi-comments.git
